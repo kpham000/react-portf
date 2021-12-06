@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'
-// import image from './img'
+import image from '../Home/AvatarMaker.png'
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -20,16 +20,11 @@ const Home = () => {
            </div>
            <div className="section">
                 <div className="image">
-                    {/* <img src={image} alt="user" /> */}
+                    <img src={image} alt="user" />
                 </div>
                 <div className="details">
                     <h1>Kelly Pham</h1>
                     <p>Hello! I'm a full stack developer student at University of Washington coding bootcamp.  </p>
-                    <div className="social-links">
-                        <li><a href="https://www.facebook.com"><i className="fab fa-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com"><i className="fab fa-instagram"></i></a></li>
-                        <li><a href="https://www.linkedin.com"><i className="fab fa-linkedin"></i></a></li>
-                    </div>
                 </div>
            </div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+// import resume from "../About/portfolio resume.pdf"
 import { Link } from "react-router-dom";
 
 
@@ -37,8 +38,8 @@ const About = () => {
                             About <span className="name">Kelly </span>
                         </h2>
                         <p>
-                            <span>Dreamer</span> | <span>Learner</span> |{" "}
-                            <span>Adventurer</span>
+                            <span>Student</span> | <span>Learner</span> |{" "}
+                            <span>Full stack devloper student</span>
                         </p>
                         <hr />
                         <p>
@@ -47,7 +48,7 @@ const About = () => {
                             and others.{" "}
                         </p>
                         <h3 className="link">
-                            <a className="resume" href="#">
+                            <a className="resume" href="https://docs.google.com/document/d/1Bk_L6uXLE4uxBHo3S9Fck2PlAFfAQHzr3LrO6lC1Cb0/edit">
                                 VIEW MY RESUME
                             </a>
                         </h3>

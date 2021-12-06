@@ -1,5 +1,9 @@
 import React from "react";
 import "./Portfolio.css";
+import image1 from '../Portfolio/weather-dash-page.png'
+import image2 from '../Portfolio/proj1-thirsty-thursday.png'
+import image3 from '../Portfolio/fitness-tracker-dash.png'
+import image4 from '../Portfolio/budget-tracker-screenshot.png'
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
@@ -32,19 +36,23 @@ const Portfolio = () => {
       <div className="section">
 
         <div className="sub-section">
+          <h1>Portfolio</h1>
             <div className="item-container">
-                <img src="https://images.unsplash.com/photo-1635967200576-004b9c9e7fb7?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1635847858229-bf666ad5a698?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Ym84alFLVGFFMFl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
+              <a href="https://kpham000.github.io/weather-dashboard/">
+                <img src= {image1} alt="weather dashboard" />
+                </a>
+              <a href="https://chuckdvchek.github.io/thirsty-thursdays/">
+                <img src={image2} alt="thirsty-thursday" />
+                </a>
             </div>
             <div className="item-container">
-                <img src="https://images.unsplash.com/photo-1634351439307-45d271b29797?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8Ym84alFLVGFFMFl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1635454022133-e287f3924950?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
+              <a href="https://workout-tracker-aa.herokuapp.com/">
+                <img src={image3} alt="fitness tracker" />
+                </a>
+              <a href="https://budget-tracker-bu.herokuapp.com/">
+                <img src= {image4} alt="budget tracker" />
+                </a>
             </div>
-            <div className="item-container">
-                <img src="https://images.unsplash.com/photo-1634451835737-216e6cc8573c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQxfGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1636137088104-ab8cbb30d645?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
-            </div>
-            
         </div>
         
       </div>

@@ -1,0 +1,38 @@
+.contact{
+    display: block;
+}
+
+.contact h2{
+    font-size: 3.5rem;
+    text-align: left;
+}
+
+.wrapper{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h2{
+    color: #838383;
+}
+
+.small{
+    margin-top: -150px;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 33%;
+    text-transform: uppercase;
+}
+
+.small small{
+    color: rgb(172, 172, 172);
+    font-weight: 500;
+}
+
+.contact-img{
+    border-radius: 50%;
+    width: 35%;
+    height: auto;
+}
